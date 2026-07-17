@@ -1,8 +1,8 @@
-# Vibrating Plate Simulation & Modal Analysis
+# Chladni Figures Simulation & Modal Analysis
 
-This project simulates the dynamic behavior of a vibrating brass plate using the Finite Difference Time Domain (FDTD) method. It solves the biharmonic wave equation for different boundary conditions and initial setups. 
+This project simulates the dynamic behavior of a vibrating brass plate using the Finite Difference Time Domain (FDTD) method. It solves the biharmonic wave equation for different boundary conditions and initial setups to generate and visualize beautiful Chladni patterns.
 
-A Python script is also provided to post-process the generated data, performing a Fast Fourier Transform (FFT) to find resonance frequencies, plotting Chladni patterns, and rendering a 3D animation of the plate's dynamics.
+A Python script is also provided to post-process the generated data, performing a Fast Fourier Transform (FFT) to find resonance frequencies, plotting Chladni figures, and rendering a 3D animation of the plate's dynamics.
 
 ## Features
 
@@ -32,8 +32,8 @@ To compile and run this project, you will need:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yseyifou/plaque_vibrante.git
-cd plaque_vibrante
+git clone https://github.com/your-username/Chladni-Figures.git
+cd Chladni-Figures
 ```
 
 ### 2. Compile the C++ simulation
@@ -83,3 +83,7 @@ The Python script will generate the following visualizations:
 1. **Time Series & FFT Spectrum**: Shows the displacement of the plate's center over time and its frequency spectrum (identifying the main resonance frequency).
 2. **Chladni Pattern**: A 2D contour plot of the maximum amplitude envelope, highlighting the nodal lines (where sand would accumulate on a real plate).
 3. **3D Animation**: A dynamic 3D surface plot showing the plate's deflection over time.
+
+## License
+
+This project is open-source and available under the MIT License.
