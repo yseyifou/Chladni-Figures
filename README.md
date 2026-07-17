@@ -27,6 +27,7 @@ To compile and run this project, you will need:
 - A C++ compiler (e.g., `g++`, `clang`)
 - Python 3.x
 - Standard Python libraries: `numpy`, `matplotlib`, `scipy`
+- Tkinter (for GUI rendering): `python3-tk` (install via your package manager on Linux, e.g., `sudo apt install python3-tk`)
 
 ## Installation & Usage
 
@@ -70,12 +71,6 @@ pip install numpy matplotlib scipy
 ```bash
 python plot_results.py
 ```
-
-> **⚠️ Linux (Wayland) Note:** 
-> If you encounter a `Could not load the Qt platform plugin "xcb"` error when displaying plots, force Matplotlib to use Wayland by running:
-> ```bash
-> QT_QPA_PLATFORM=wayland python plot_results.py
-> ```
 
 ## Outputs
 
