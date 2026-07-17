@@ -24,7 +24,7 @@ The simulation uses standard mechanical properties for brass:
 ## Prerequisites
 
 To compile and run this project, you will need:
-- A C++ compiler (e.g., `g++`, `clang`)
+- A C++ compiler
 - Python 3.x
 - Standard Python libraries: `numpy`, `matplotlib`, `scipy`
 - Tkinter (for GUI rendering): `python3-tk` (install via your package manager on Linux, e.g., `sudo apt install python3-tk`)
